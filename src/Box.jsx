@@ -1,6 +1,5 @@
 import { useState } from "react";
 import PropTypes, { string } from "prop-types";
-// import "./Box.css";
 
 function getRandColor(arr) {
     const ind = Math.floor(Math.random() * arr.length);
